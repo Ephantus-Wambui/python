@@ -7,11 +7,11 @@ if (bmi_calc < 18.5):
     print('Under weight')
     print(f'Your bmi is {bmi_calc}')
 
-elif (bmi_calc >= 18.5 or bmi_calc < 25):
+elif (bmi_calc >= 18.5 and bmi_calc < 25):
     print('Your bmi is normal')
     print(f'Your bmi is {bmi_calc}')
 
-elif (bmi_calc >= 25 or bmi_calc < 30):
+elif (bmi_calc >= 25 and bmi_calc < 30):
     print('Overweight')
     print(f'Your bmi is {bmi_calc}')
 
